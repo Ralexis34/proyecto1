@@ -1,0 +1,52 @@
+@media screen and (max-width: 768px) {
+
+    #container{
+        width: 96%;
+    }
+    
+    #quien h1, #quien p{
+        color: #fff;
+    }
+
+    .proy{
+        width: 47%;
+        display: inline-block;
+        margin: 0 1.5%;
+        margin-bottom: 3%;
+    }
+    /*--------------------------------*/
+    #texto{
+        width: 100%;
+        display: inline-block;
+    }
+
+    #filosofia img{
+        width: 100%;
+    }
+
+    #proyectos figure{
+        position: relative;
+        z-index: 0;
+        display: block;
+        margin: 5% 0;
+	    width: 100%;
+    }
+
+    .menu-toggle{
+		display: inline;
+	}
+    
+    /*--------------------------------*/
+    /*--------------------------------*/
+    /*--------------------------------*/
+}
+
+@media screen and (max-width: 767px){
+    #filosofia img{
+        width: 0%;
+    }
+
+    #nombre{
+        display: inline;
+    }
+}

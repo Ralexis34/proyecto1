@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link rel="stylesheet" href="css/estilos.css" type="text/css" />
+	<link rel="stylesheet" href="css/tablet_md.css" type="text/css" />
+	<link rel="stylesheet" href="css/pc_xl.css" type="text/css" />
+
+	<link rel="shortcut icon" type="image/x-icon" href="iconos/favicon.ico">
+	<title>Electrod</title>
+</head>
+
+<body>
+	<header id="cabecera">
+		<a id="empresa" href="index.html">
+			<img id="logotipo" src="imagenes/login.png" />
+			<figcaption id="nombre">Electrod</figcaption>
+		</a>
+		<!--Se crea un checkbox quien permitira el trabajo con la propiedad
+			CHECKED y se viculara a un label con el atributo FOR para que
+			al momento de presionar el label, actue como si se seleccionara
+			el checkbox.
+		
+			Al dar click en el menu hamburguesa se activara o desactivara
+			el menu principal dependiendo del estatus checked que puede ser
+			controlado en el CSS con la pseudoclase ::CHECKED-->
+		<input type="checkbox" class="checkbox" id="menu-toggle" />
+		<label for="menu-toggle" class="menu-toggle">&equiv;</label>
+
+		<nav id="menuPrincipal">
+			<a class="opcion" href="index.html#quien">¿Qué hacemos?</a>
+			<a class="opcion" href="index.html#filosofia">Visión</a>
+			<a class="opcion" href="index.html#proyectos">Variedad</a>
+			<a class="opcion" href="index.html#contacto">Contacto</a>
+		</nav>
+	</header>
+
+		<section id="quien" class="contenido">
+			<article>
+				<h1>¿Qué hacemos?</h1>
+				<p>
+					Somos una compañía enfocada en brindar buenos productos para nuestros clientes,
+ 					nos encargamos de dar el mejor servicio y atención. <br>
+					¡Contamos con la mejor variedad de aparatos electrónicos en general, echa un vistazo!!
+				</p>
+			</article>
+		</section>
+
+		<section id="filosofia" class="contenido">
+			<article id="texto">
+				<h1>Nuestra Visión</h1>
+				<p>
+					Al tener una gran variedad de proveedores, también contamos con muchos productos como 
+					laptops, teléfonos celulares, computadoras, pantallas, etc.<br><br>
+					
+
+					<p>Nosotros nos enfocamos en ofrecer una gran cantidad de productos electrónicos de todos los tipos y utilidades, 
+						contamos con gran variedad de ofertas que te pueden interesar.
+				</p>
+				</p>
+			</article>
+			<img src="imagenes/laptops.png" />
+		</section>
+
+		<section id="proyectos" class="contenido">
+			<h1>Productos</h1>
+				<figure id="imagen1">
+					<img src="imagenes/laptop.jpg" />
+					
+				</figure>
+					
+				<figure id="imagen2">
+					<img src="imagenes/pece.jpg" />
+				</figure>
+					
+				<figure id="imagen3">
+					<img src="imagenes/Teve.jpg" />
+				</figure>
+					
+				<figure id="imagen4">
+					<img src="imagenes/celular.jpg" />
+				</figure>
+					
+		</section>
+
+	
+
+	<footer id="contacto">UTL EVN 304 <br> Copyright © 2022 - Ricardo Alexis Hernandez Rodriguez </footer>
+</body>
+
+</html>
